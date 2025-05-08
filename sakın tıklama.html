@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komik Fotoğraf</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #a703f3; /* Daha koyu pastel mor */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Metin kutusu ve resmin alt alta olmasını sağlar */
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            width: 80%;
+            max-width: 490px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Yazı ekleme alanı */
+        .text-container {
+            margin-top: 20px; /* Resim ile yazı alanı arasına boşluk ekler */
+            font-size: 18px; /* Yazı boyutunu belirler */
+            color: white; /* Yazı rengini beyaz yapar */
+            background-color: rgba(0, 0, 0, 0.5); /* Yazı arka planını hafif koyu yapar */
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            max-width: 750px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="2.jpg" alt="Komik Fotoğraf">
+    </div>
+
+    <!-- Yazı Ekleme Alanı -->
+    <div class="text-container" id="textArea">
+AŞSKJLDFKLAJDSKLFJALKŞSDJFKJASKLDJFLKŞAJFLKŞASDJFLKŞAJDLKSFŞJAŞ
+    </div>
+
+</body>
+</html>
